@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner Return children when loaded is false 1`] = `
+<div
+  class="page-container"
+  data-testid="pageContainer"
+>
+  <div
+    class="spinner"
+  >
+    <img
+      alt="loading"
+      class="spinner__needle"
+      data-testid="needle"
+      src="needle.svg"
+    />
+    <img
+      alt="loading"
+      class="spinner__record"
+      data-testid="vinyl"
+      src="vinyl.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`Spinner Return spinner when loaded is true 1`] = `
+<div
+  class="page-container"
+  data-testid="pageContainer"
+/>
+`;
